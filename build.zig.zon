@@ -1,0 +1,27 @@
+.{
+    .name = "selinux.zig",
+    .version = "3.6.0",
+    .paths = .{"."},
+    .dependencies = .{
+        .libselinux = .{
+            .url = "https://github.com/SELinuxProject/selinux/releases/download/3.6/libselinux-3.6.tar.gz",
+            .hash = "1220446fb3c59fba75208d22155bd212ea49c4cd6b7c1307f360c89138d913cd8035",
+        },
+        .libsepol = .{
+            .url = "https://github.com/SELinuxProject/selinux/releases/download/3.6/libsepol-3.6.tar.gz",
+            .hash = "1220dd7f498996da2483865cb7c4dbe12e465239fd22501e4d9e58041f6b2705edd5",
+        },
+        .pcre2 = .{
+            .url = "https://github.com/PCRE2Project/pcre2/archive/589fea34c87a43d5d6521b3bc3f890f00aaa557b.tar.gz",
+            .hash = "1220500af520622a629c3e424ca786880361f6ad229078f6ce5f4905c8d2d2d8effb",
+        },
+        .@"musl-fts" = .{
+            .url = "https://github.com/MidstallSoftware/musl-fts.zig/archive/5a357938abd1ed4432130ac47a8a2c12eb424345.tar.gz",
+            .hash = "12200bc9c46b6ddc21acbd8862d26d41c0e3302492f500ad70e9fd0421fc965e4e41",
+        },
+        .python = .{
+            .url = "https://github.com/MidstallSoftware/python.zig/archive/e30fade3dce443f110399b9e04f867eb3b7df364.tar.gz",
+            .hash = "1220cd6e19dc1bf38fbbd5bdbfe0344bbb84323afa5521294262be98276acdf44b45",
+        },
+    },
+}
