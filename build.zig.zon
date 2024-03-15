@@ -12,16 +12,16 @@
             .hash = "1220dd7f498996da2483865cb7c4dbe12e465239fd22501e4d9e58041f6b2705edd5",
         },
         .pcre2 = .{
-            .url = "https://github.com/PCRE2Project/pcre2/archive/589fea34c87a43d5d6521b3bc3f890f00aaa557b.tar.gz",
-            .hash = "1220500af520622a629c3e424ca786880361f6ad229078f6ce5f4905c8d2d2d8effb",
+            .url = "https://github.com/PCRE2Project/pcre2/archive/3c5ca5c1eabf64e1e0912b6c9eaa18850d4c3b40.tar.gz",
+            .hash = "12205c9afeae4b6fc701c05ea788f720af4b299c0b4c60e82cdf3a6c15c5f8a5f17b",
         },
         .@"musl-fts" = .{
-            .url = "https://github.com/MidstallSoftware/musl-fts.zig/archive/5a357938abd1ed4432130ac47a8a2c12eb424345.tar.gz",
-            .hash = "12200bc9c46b6ddc21acbd8862d26d41c0e3302492f500ad70e9fd0421fc965e4e41",
+            .url = "https://github.com/MidstallSoftware/musl-fts.zig/archive/7f7c861ec97e57bb5c73359cb277cde207efa6f9.tar.gz",
+            .hash = "1220bd52f38ea561f1fb8fde8a4531d6df55a32ad3424c5c7bd7d4ed2a10375f1611",
         },
         .python = .{
-            .url = "https://github.com/MidstallSoftware/python.zig/archive/e30fade3dce443f110399b9e04f867eb3b7df364.tar.gz",
-            .hash = "1220cd6e19dc1bf38fbbd5bdbfe0344bbb84323afa5521294262be98276acdf44b45",
+            .url = "https://github.com/MidstallSoftware/python.zig/archive/42008343b427e049f67e5ccfdfafa9ccfb9377a5.tar.gz",
+            .hash = "1220839da3e6999de970a44384724053d198657c638eb23e640e356b91c2640bea0f",
         },
     },
 }
